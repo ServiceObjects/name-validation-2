@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name-validation-2-dot-net", "name-validation-2-dot-net\name-validation-2-dot-net.csproj", "{5E7962E2-B49D-4E7D-AED9-F6E1B0EA220E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "name-validation-2-dot-net-examples", "name-validation-2-dot-net-examples\name-validation-2-dot-net-examples.csproj", "{A0A84688-AB99-44A6-BF94-2AE6D76EA22C}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "name-validation-2-nodejs", "name-validation-2-nodejs\name-validation-2-nodejs.esproj", "{970CBD9B-8115-487C-B28C-72F4941A14E8}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "name-validation-2-python", "name-validation-2-python\name-validation-2-python.pyproj", "{767229E6-0949-4BF7-AF8A-1E29925FAF5A}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "name-validation-2-python-examples", "name-validation-2-python-examples\name-validation-2-python-examples.pyproj", "{7127F523-F188-4095-90E8-1DDFB169F1B0}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "name-validation-2-nodejs-examples", "name-validation-2-nodejs-examples\name-validation-2-nodejs-examples.esproj", "{B6D29EA0-C7E4-AE3B-E80C-A3951342A7C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E7962E2-B49D-4E7D-AED9-F6E1B0EA220E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7962E2-B49D-4E7D-AED9-F6E1B0EA220E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7962E2-B49D-4E7D-AED9-F6E1B0EA220E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7962E2-B49D-4E7D-AED9-F6E1B0EA220E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A84688-AB99-44A6-BF94-2AE6D76EA22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A84688-AB99-44A6-BF94-2AE6D76EA22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A84688-AB99-44A6-BF94-2AE6D76EA22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A84688-AB99-44A6-BF94-2AE6D76EA22C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970CBD9B-8115-487C-B28C-72F4941A14E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970CBD9B-8115-487C-B28C-72F4941A14E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970CBD9B-8115-487C-B28C-72F4941A14E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{970CBD9B-8115-487C-B28C-72F4941A14E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970CBD9B-8115-487C-B28C-72F4941A14E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970CBD9B-8115-487C-B28C-72F4941A14E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{767229E6-0949-4BF7-AF8A-1E29925FAF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767229E6-0949-4BF7-AF8A-1E29925FAF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7127F523-F188-4095-90E8-1DDFB169F1B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7127F523-F188-4095-90E8-1DDFB169F1B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D29EA0-C7E4-AE3B-E80C-A3951342A7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D29EA0-C7E4-AE3B-E80C-A3951342A7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D29EA0-C7E4-AE3B-E80C-A3951342A7C2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B6D29EA0-C7E4-AE3B-E80C-A3951342A7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D29EA0-C7E4-AE3B-E80C-A3951342A7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D29EA0-C7E4-AE3B-E80C-A3951342A7C2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C0A2187-079D-4A78-95A7-317BBD17DF64}
+	EndGlobalSection
+EndGlobal
