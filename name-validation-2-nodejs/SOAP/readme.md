@@ -18,17 +18,18 @@ Uses the provided name to return information such as classification, gender if a
 // 1. Build the input
 //
 //  Required fields:
-//               LicenseKey
-//               IsLive
+//               licenseKey
+//               isLive
 // 
 //  Optional:
-//       Name
-//       Option
-//       TimeoutSeconds (default: 15)
+//       name
+//       option
+//       timeoutSeconds (default: 15)
 
 const name = "John Smith";
 const option = "1";
 const timeoutSeconds = 15;
+const licenseKey = "YOUR LICENSE KEY";
 
 import { NameInfoV2Soap } from "../name-validation-2-nodejs/SOAP/name_info_v2_soap.js";
 

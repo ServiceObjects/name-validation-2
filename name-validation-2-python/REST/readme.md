@@ -18,24 +18,24 @@ Uses the provided name to return information such as classification, gender if a
 # 1. Build the input
 #
 #  Required fields:
-#               LicenseKey
-#               IsLive
+#               license_key
+#               is_live
 # 
 #  Optional:
-#       Name
-#       Option
-#       TimeoutSeconds (default: 15)
+#       name
+#       option
+#       timeout_seconds (default: 15)
 
- name = "John Smith";
- option = "1";
- timeoutSeconds = 15;
+name = "John Smith";
+option = "1";
+timeout_seconds = 15;
+is_live = True
+license_key = "YOUR LICENSE KEY"
 
 from name_info_v2_rest import get_name_info_v2
 
 # 2. Call the sync Invoke() method.
- response = get_name_info_v2(
-            name, option, license_key, is_live, timeout_seconds
-        )
+response = get_name_info_v2(name, option, license_key, is_live, timeout_seconds)
 
 # 3. Inspect results.
 if response.Error is None:

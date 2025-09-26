@@ -33,6 +33,7 @@ using name_validation_2_dot_net.SOAP;
 // 3 Call the service
 string Name = "John Smith";
 string Option = "1";
+string LicenseKey = "YOUR LICENSE KEY";
 
 NameInfoV2Response response = nv2.ValidateNameV2(Name, Option, licenseKey).Result;
 

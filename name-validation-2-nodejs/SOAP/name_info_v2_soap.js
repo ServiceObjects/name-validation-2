@@ -1,5 +1,4 @@
 import { soap } from 'strong-soap';
-import { NameInfoV2Response } from './nv2_response.js';
 
 /**
  * <summary>
@@ -21,9 +20,6 @@ class NameInfoV2Soap {
      * @throws {Error} Thrown if LicenseKey is empty or null.
      */
     constructor(Name, Option = '', LicenseKey, isLive = true, timeoutSeconds = 15) {
-        if (!LicenseKey) {
-            throw new Error("LicenseKey is required and cannot be empty or null.");
-        }
 
         this.args = {
             Name,
@@ -93,8 +89,7 @@ class NameInfoV2Soap {
                         if (!rawData) {
                             return reject(new Error("SOAP response is empty or undefined."));
                         }
-                        const parsed = new NameInfoV2Response(rawData);
-                        resolve(parsed);
+                        resolve(rawData);
                     } catch (parseErr) {
                         reject(new Error(`Failed to parse SOAP response: ${parseErr.message}`));
                     }

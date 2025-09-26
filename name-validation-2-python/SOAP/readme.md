@@ -15,22 +15,24 @@ Uses the provided name to return information such as classification, gender if a
 ## Library Usage
 
 ```
-// 1. Build the input
-//
-//  Required fields:
-//               LicenseKey
-//               IsLive
-// 
-//  Optional:
-//       Name
-//       Option
-//       TimeoutSeconds (default: 15)
+# 1. Build the input
+#
+#  Required fields:
+#               license_key
+#               is_live
+# 
+#  Optional:
+#       name
+#       option
+#       timeout_seconds (default: 15)
 
- name = "John Smith";
- option = "1";
- timeoutSeconds = 15;
+name = "John Smith";
+option = "1";
+timeout_seconds = 15;
+is_live = True
+license_key = "YOUR LICENSE KEY"
 
- from name_info_v2_soap import NameInfoV2Soap
+from name_info_v2_soap import NameInfoV2Soap
 
 // 2. Call the method.
 service = NameInfoV2Soap(license_key, is_live,timeout_ms=timeout_seconds * 1000)
